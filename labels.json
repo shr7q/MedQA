@@ -1,0 +1,1794 @@
+[
+  {
+    "id": 1,
+    "question": "Are benign brain tumors serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "benign brain tumors"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 2,
+    "question": "Are boils and carbuncles curable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "boils and carbuncles"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 3,
+    "question": "Are bone cysts serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "bone cysts"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 4,
+    "question": "Are cold sores a herpes virus?",
+    "intent": "disease_information",
+    "symptoms": [
+      "cold sores"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 5,
+    "question": "Are dental abscesses serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "dental abscesses"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 6,
+    "question": "Are dry lips a symptom of anything?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "dry lips"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 7,
+    "question": "Are febrile seizures harmful?",
+    "intent": "severity_question",
+    "symptoms": [
+      "febrile seizures"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 8,
+    "question": "Are fibroids serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "fibroids"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 9,
+    "question": "Are floaters in eye serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "floaters in eye"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 10,
+    "question": "Are genital warts serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "genital warts"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "medium"
+  },
+  {
+    "id": 11,
+    "question": "Are head and neck cancers curable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "head and neck cancers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "high"
+  },
+  {
+    "id": 12,
+    "question": "Are human bites more infectious than animal bites?",
+    "intent": "disease_information",
+    "symptoms": [
+      "human bites"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 13,
+    "question": "Are lipomas serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "lipomas"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 14,
+    "question": "Are mouth ulcers caused by stress?",
+    "intent": "causality_question",
+    "symptoms": [
+      "mouth ulcers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 15,
+    "question": "Are pauses in breathing normal?",
+    "intent": "severity_question",
+    "symptoms": [
+      "pauses in breathing"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 16,
+    "question": "Are phantom smells a symptom of Covid?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "phantom smells"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 17,
+    "question": "Are piles and hemorrhoids the same thing?",
+    "intent": "disease_information",
+    "symptoms": [
+      "piles",
+      "hemorrhoids"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 18,
+    "question": "Are piles and hemorrhoids the same?",
+    "intent": "disease_information",
+    "symptoms": [
+      "piles",
+      "hemorrhoids"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 19,
+    "question": "Are pressure sores and pressure ulcers the same?",
+    "intent": "disease_information",
+    "symptoms": [
+      "pressure sores",
+      "pressure ulcers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 20,
+    "question": "Are primary tumors and metastases different?",
+    "intent": "disease_information",
+    "symptoms": [
+      "primary tumors",
+      "metastases"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 21,
+    "question": "Are pulmonary embolisms curable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "pulmonary embolisms"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 22,
+    "question": "Are red veins in eyes serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "red veins in eyes"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 23,
+    "question": "Are rotator cuff injuries serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "rotator cuff injuries"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 24,
+    "question": "Are scoliosis and kyphosis curable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "scoliosis",
+      "kyphosis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 25,
+    "question": "Are sigmoid diverticula serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "sigmoid diverticula"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 26,
+    "question": "Are skin ulcers serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "skin ulcers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Are skin ulcers treatable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "skin ulcers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Are suspected ulcers treatable?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "suspected ulcers"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 29,
+    "question": "Are ventral hernias in elderly serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "ventral hernias in elderly"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 30,
+    "question": "Are vestibular disorders serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "vestibular disorders"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 31,
+    "question": "At what age does motor neurone disease start?",
+    "intent": "disease_information",
+    "symptoms": [
+      "motor neurone disease"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 32,
+    "question": "At what age does penile cancer occur?",
+    "intent": "disease_information",
+    "symptoms": [
+      "penile cancer"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "high"
+  },
+  {
+    "id": 33,
+    "question": "At what age is bedwetting a problem?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "bedwetting"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "low"
+  },
+  {
+    "id": 34,
+    "question": "At what age is gender dysphoria most common?",
+    "intent": "disease_information",
+    "symptoms": [
+      "gender dysphoria"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "systemic",
+    "urgency": "medium"
+  },
+  {
+    "id": 35,
+    "question": "At what age is hearing loss normal?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "hearing loss"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 36,
+    "question": "At what age is it normal to lose teeth?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "losing teeth"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 37,
+    "question": "At what age is MDS diagnosed?",
+    "intent": "disease_information",
+    "symptoms": [
+      "myelodysplastic syndromes"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "high"
+  },
+  {
+    "id": 38,
+    "question": "At what age is myelodysplastic syndrome diagnosed?",
+    "intent": "disease_information",
+    "symptoms": [
+      "myelodysplastic syndrome"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "high"
+  },
+  {
+    "id": 39,
+    "question": "At what age is nocturia normal?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "nocturia"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "low"
+  },
+  {
+    "id": 40,
+    "question": "At what age is occasional shortness of breath normal?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "shortness of breath"
+    ],
+    "duration": "occasional",
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "medium"
+  },
+  {
+    "id": 41,
+    "question": "At what age is rectal bleeding common?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "rectal bleeding"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 42,
+    "question": "At what age is scoliosis most common?",
+    "intent": "disease_information",
+    "symptoms": [
+      "scoliosis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "medium"
+  },
+  {
+    "id": 43,
+    "question": "At what age is strep throat most common?",
+    "intent": "disease_information",
+    "symptoms": [
+      "strep throat"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 44,
+    "question": "At what age is thalassemia diagnosed?",
+    "intent": "disease_information",
+    "symptoms": [
+      "thalassemia"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "systemic",
+    "urgency": "high"
+  },
+  {
+    "id": 45,
+    "question": "At what age is tongue tie diagnosed?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "tongue tie"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 46,
+    "question": "At what age should children get HPV vaccine?",
+    "intent": "informational_question",
+    "symptoms": [],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "low"
+  },
+  {
+    "id": 47,
+    "question": "At what age should you worry about scoliosis?",
+    "intent": "severity_question",
+    "symptoms": [
+      "scoliosis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "medium"
+  },
+  {
+    "id": 48,
+    "question": "At what age should your tongue be checked for growths?",
+    "intent": "severity_question",
+    "symptoms": [
+      "tongue growths"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 49,
+    "question": "At what age should you worry about tumors?",
+    "intent": "severity_question",
+    "symptoms": [
+      "tumors"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 50,
+    "question": "Can a child survive stage 4 neuroblastoma?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "stage 4 neuroblastoma"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 51,
+    "question": "Can a child's UTI go away on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "urinary tract infection"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "medium"
+  },
+  {
+    "id": 52,
+    "question": "Can a dislocated kneecap heal on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "dislocated kneecap"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 53,
+    "question": "Can a dislocated shoulder fix itself?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "dislocated shoulder"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 54,
+    "question": "Can a ganglion cyst go away on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "ganglion cyst"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  },
+  {
+    "id": 55,
+    "question": "Can a heart failure be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "heart failure"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "high"
+  },
+  {
+    "id": 56,
+    "question": "Can a kidney infection go away by itself?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "kidney infection"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "high"
+  },
+  {
+    "id": 57,
+    "question": "Can a lump be cancer?",
+    "intent": "diagnosis_question",
+    "symptoms": [
+      "lump"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "high"
+  },
+  {
+    "id": 58,
+    "question": "Can a lung cancer be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "lung cancer"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "high"
+  },
+  {
+    "id": 59,
+    "question": "Can a nasal polyp go away on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "nasal polyp"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 60,
+    "question": "Can a perforated eardrum heal on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "perforated eardrum"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 61,
+    "question": "Can a person with spastic paraplegia walk?",
+    "intent": "ability_question",
+    "symptoms": [
+      "spastic paraplegia"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 62,
+    "question": "Can a person with spina bifida walk?",
+    "intent": "ability_question",
+    "symptoms": [
+      "spina bifida"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "medium"
+  },
+  {
+    "id": 63,
+    "question": "Can a persons personality be changed?",
+    "intent": "general_health_question",
+    "symptoms": [
+      "personality change"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "low"
+  },
+  {
+    "id": 64,
+    "question": "Can a red eye be serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "red eye"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 66,
+    "question": "Can a squint eye be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "squint eye"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  
+  {
+    "id": 68,
+    "question": "Can a tooth abscess go away on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "tooth abscess"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "high"
+  },
+  {
+    "id": 69,
+    "question": "Can a tooth be saved if knocked out?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "knocked out tooth"
+    ],
+    "duration": "acute",
+    "trigger": "trauma",
+    "body_location": "face_sensory",
+    "urgency": "high"
+  },
+  {
+    "id": 70,
+    "question": "Can acanthosis nigricans go away?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "acanthosis nigricans"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 71,
+    "question": "Can achalasia be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "achalasia"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 72,
+    "question": "Can acute pancreatitis be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "acute pancreatitis"
+    ],
+    "duration": "acute",
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 73,
+    "question": "Can adults get hand-foot-and-mouth from child?",
+    "intent": "transmission_question",
+    "symptoms": [
+      "hand foot and mouth disease"
+    ],
+    "duration": "acute",
+    "trigger": "exposure_to_infected_child",
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 74,
+    "question": "Can adults get mumps?",
+    "intent": "susceptibility_question",
+    "symptoms": [
+      "mumps"
+    ],
+    "duration": "acute",
+    "trigger": "exposure_to_virus",
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 75,
+    "question": "Can adults get slap cheek virus?",
+    "intent": "susceptibility_question",
+    "symptoms": [
+      "slapped cheek virus"
+    ],
+    "duration": "acute",
+    "trigger": "exposure_to_virus",
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 76,
+    "question": "Can an extra rib cause problems?",
+    "intent": "complication_question",
+    "symptoms": [
+      "extra rib"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "medium"
+  },
+  {
+    "id": 77,
+    "question": "Can an undescended testicle fix itself?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "undescended testicle"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "medium"
+  },
+  {
+    "id": 78,
+    "question": "Can anal cancer be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "anal cancer"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "high"
+  },
+  {
+    "id": 79,
+    "question": "Can aortic stenosis be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "aortic stenosis"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "high"
+  },
+  {
+    "id": 80,
+    "question": "Can appendix pain come and go for days?",
+    "intent": "symptom_pattern_question",
+    "symptoms": [
+      "appendix pain"
+    ],
+    "duration": "days",
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 81,
+    "question": "Can ataxia be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "ataxia"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "medium"
+  },
+  {
+    "id": 82,
+    "question": "Can autosomal dominant polycystic kidney disease be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "autosomal dominant polycystic kidney disease"
+    ],
+    "duration": "chronic",
+    "trigger": "genetic",
+    "body_location": "urinary",
+    "urgency": "high"
+  },
+  {
+    "id": 83,
+    "question": "Can baby have both plagiocephaly and brachycephaly?",
+    "intent": "cooccurrence_question",
+    "symptoms": [
+      "plagiocephaly",
+      "brachycephaly"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "low"
+  },
+  {
+    "id": 84,
+    "question": "Can balanitis be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "balanitis"
+    ],
+    "duration": "acute",
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "medium"
+  },
+  {
+    "id": 85,
+    "question": "Can be asthma be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "asthma"
+    ],
+    "duration": "chronic",
+    "trigger": "allergens",
+    "body_location": "chest_respiratory",
+    "urgency": "medium"
+  },
+  {
+    "id": 86,
+    "question": "Can benign prostate turn into cancer?",
+    "intent": "progression_question",
+    "symptoms": [
+      "benign prostate enlargement"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "medium"
+  },
+  {
+    "id": 87,
+    "question": "Can bile duct cancer be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "bile duct cancer"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 88,
+    "question": "Can bone thinning be reversed?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "bone thinning"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 89,
+    "question": "Can bowed legs be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "bowed legs"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  },
+  {
+    "id": 90,
+    "question": "Can brucellosis be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "brucellosis"
+    ],
+    "duration": "chronic",
+    "trigger": "infection",
+    "body_location": "systemic",
+    "urgency": "medium"
+  },
+  {
+    "id": 91,
+    "question": "Can bulging eyes be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "bulging eyes"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 92,
+    "question": "Can bulging eyes return to normal?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "bulging eyes"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 93,
+    "question": "Can cellulitis go away on its own?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "cellulitis"
+    ],
+    "duration": "acute",
+    "trigger": "infection",
+    "body_location": "skin_tissue",
+    "urgency": "high"
+  },
+  {
+    "id": 94,
+    "question": "Can CFS be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "chronic fatigue syndrome"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "systemic",
+    "urgency": "medium"
+  },
+  {
+    "id": 95,
+    "question": "Can chronic kidney disease be repaired?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "chronic kidney disease"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "high"
+  },
+  {
+    "id": 96,
+    "question": "Can Club foot be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "club foot"
+    ],
+    "duration": "chronic",
+    "trigger": "congenital",
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 97,
+    "question": "Can coccydynia be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "coccydynia"
+    ],
+    "duration": "chronic",
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "low"
+  },
+  {
+    "id": 98,
+    "question": "Can concussion heal itself?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "concussion"
+    ],
+    "duration": "acute",
+    "trigger": "head_injury",
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 99,
+    "question": "Can contact dermatitis be spread?",
+    "intent": "transmission_question",
+    "symptoms": [
+      "contact dermatitis"
+    ],
+    "duration": "acute",
+    "trigger": "irritant_or_allergen",
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 100,
+    "question": "Can Covid start with a runny nose?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "runny nose",
+      "Covid"
+    ],
+    "duration": "acute",
+    "trigger": "Covid_infection",
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 101,
+    "question": "Can damaged cartilage repair itself?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "damaged cartilage"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "low"
+  },
+  {
+    "id": 102,
+    "question": "Can dengue be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "dengue"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": null,
+    "urgency": "medium"
+  },
+  {
+    "id": 103,
+    "question": "Can diabetes cause sweating?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "diabetes",
+      "sweating"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  },
+  {
+    "id": 104,
+    "question": "Can Diabetes Type 2 Be Cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "Diabetes Type 2"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "low"
+  },
+  {
+    "id": 105,
+    "question": "Can diabetic retinopathy be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "diabetic retinopathy"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 106,
+    "question": "Can difficulty swallowing go away?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "difficulty swallowing"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 107,
+    "question": "Can discoid eczema be caused by stress?",
+    "intent": "causality_question",
+    "symptoms": [
+      "discoid eczema",
+      "stress"
+    ],
+    "duration": null,
+    "trigger": "stress",
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 108,
+    "question": "Can dizziness be serious?",
+    "intent": "severity_question",
+    "symptoms": [
+      "dizziness"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "medium"
+  },
+  {
+    "id": 109,
+    "question": "Can dry eye syndrome be fixed?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "dry eye syndrome"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 110,
+    "question": "Can Dupuytren's contracture go away?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "Dupuytren's contracture"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "low"
+  },
+  {
+    "id": 111,
+    "question": "Can earwax cause glue ear?",
+    "intent": "causality_question",
+    "symptoms": [
+      "earwax",
+      "glue ear"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 112,
+    "question": "Can ectopic beats damage your heart?",
+    "intent": "severity_question",
+    "symptoms": [
+      "ectopic beats"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "medium"
+  },
+  {
+    "id": 113,
+    "question": "Can ectropion fix itself?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "ectropion"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 114,
+    "question": "Can ejaculation disorders be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "ejaculation disorders"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "low"
+  },
+  {
+    "id": 115,
+    "question": "Can empyema be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "empyema"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "chest_respiratory",
+    "urgency": "high"
+  },
+  {
+    "id": 116,
+    "question": "Can encephalitis be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "encephalitis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 117,
+    "question": "Can endometriosis go away?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "endometriosis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "medium"
+  },
+  {
+    "id": 118,
+    "question": "Can epidermolysis bullosa be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "epidermolysis bullosa"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "medium"
+  },
+  {
+    "id": 119,
+    "question": "Can erectile dysfunction lead to impotence?",
+    "intent": "causality_question",
+    "symptoms": [
+      "erectile dysfunction",
+      "impotence"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "genital",
+    "urgency": "low"
+  },
+  {
+    "id": 120,
+    "question": "Can essential tremors turn into Parkinson's?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "essential tremors",
+      "Parkinson's"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "medium"
+  },
+  {
+    "id": 121,
+    "question": "Can eye injury heal on its own?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "eye injury"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "high"
+  },
+  {
+    "id": 122,
+    "question": "Can eyesight get reduced?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "reduced eyesight"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 123,
+    "question": "Can fingernails show signs of illness?",
+    "intent": "diagnosis_question",
+    "symptoms": [
+      "fingernails",
+      "illness signs"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  },
+  {
+    "id": 124,
+    "question": "Can flat foot be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "flat foot"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  },
+  {
+    "id": 125,
+    "question": "Can foot drop be corrected?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "foot drop"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 126,
+    "question": "Can gallbladder cancer be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "gallbladder cancer"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 127,
+    "question": "Can gangrene be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "gangrene"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "high"
+  },
+  {
+    "id": 128,
+    "question": "Can gastritis go away on its own?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "gastritis"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "medium"
+  },
+  {
+    "id": 129,
+    "question": "Can Gilbert's syndrome cause skin problems?",
+    "intent": "causality_question",
+    "symptoms": [
+      "Gilbert's syndrome",
+      "skin problems"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 130,
+    "question": "Can giving birth cause psychosis?",
+    "intent": "causality_question",
+    "symptoms": [
+      "giving birth",
+      "psychosis"
+    ],
+    "duration": null,
+    "trigger": "giving birth",
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 131,
+    "question": "Can grinding teeth be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "grinding teeth"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "low"
+  },
+  {
+    "id": 132,
+    "question": "Can gums disease be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "gum disease"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 133,
+    "question": "Can haemophilia be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "haemophilia"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "systemic",
+    "urgency": "medium"
+  },
+  {
+    "id": 134,
+    "question": "Can hair loss grow back?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "hair loss"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 135,
+    "question": "Can head lice live in your house?",
+    "intent": "environmental_question",
+    "symptoms": [
+      "head lice"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 136,
+    "question": "Can hepatitis B be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "hepatitis B"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "high"
+  },
+  {
+    "id": 137,
+    "question": "Can high blood pressure cause blue lips?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "high blood pressure",
+      "blue lips"
+    ],
+    "duration": null,
+    "trigger": "high blood pressure",
+    "body_location": "face_sensory",
+    "urgency": "high"
+  },
+  {
+    "id": 138,
+    "question": "Can humans survive tetanus?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "tetanus"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 139,
+    "question": "Can humans survive with rabies?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "rabies"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 140,
+    "question": "Can hydrocephalus be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "hydrocephalus"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 141,
+    "question": "Can I drive with a macular hole?",
+    "intent": "activity_question",
+    "symptoms": [
+      "macular hole"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "face_sensory",
+    "urgency": "medium"
+  },
+  {
+    "id": 142,
+    "question": "Can I get toxoplasmosis from my cat?",
+    "intent": "transmission_question",
+    "symptoms": [
+      "toxoplasmosis"
+    ],
+    "duration": null,
+    "trigger": "cat contact",
+    "body_location": "body",
+    "urgency": "medium"
+  },
+  {
+    "id": 143,
+    "question": "Can I have hirsutism without PCOS?",
+    "intent": "diagnosis_question",
+    "symptoms": [
+      "hirsutism",
+      "PCOS"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 144,
+    "question": "Can incontinence be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "incontinence"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "urinary",
+    "urgency": "low"
+  },
+  {
+    "id": 145,
+    "question": "Can inflammatory bowel disease be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "inflammatory bowel disease"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "abdomen",
+    "urgency": "medium"
+  },
+  {
+    "id": 146,
+    "question": "Can intracranial hypertension be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "intracranial hypertension"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "neurological",
+    "urgency": "high"
+  },
+  {
+    "id": 147,
+    "question": "Can keratosis pilaris be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "keratosis pilaris"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 148,
+    "question": "Can kids get growing pains in hips?",
+    "intent": "symptom_query",
+    "symptoms": [
+      "growing pains"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "musculoskeletal",
+    "urgency": "low"
+  },
+  {
+    "id": 149,
+    "question": "Can lichen planus be cured?",
+    "intent": "treatment_question",
+    "symptoms": [
+      "lichen planus"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "skin_tissue",
+    "urgency": "low"
+  },
+  {
+    "id": 150,
+    "question": "Can lipedema go away?",
+    "intent": "prognosis_inquiry",
+    "symptoms": [
+      "lipedema"
+    ],
+    "duration": null,
+    "trigger": null,
+    "body_location": "body",
+    "urgency": "low"
+  }
+]
