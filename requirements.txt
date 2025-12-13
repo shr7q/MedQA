@@ -1,0 +1,11 @@
+streamlit
+groq
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+datasets
+json
+transformers
+time
+tqdm
