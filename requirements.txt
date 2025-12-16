@@ -5,7 +5,4 @@ faiss-cpu
 numpy
 pandas
 datasets
-json
-transformers
-time
 tqdm
