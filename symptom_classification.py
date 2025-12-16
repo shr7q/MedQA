@@ -156,8 +156,6 @@ def extract_symptoms(question:str, model: str ="llama-3.1-8b-instant"):
 
 if __name__ == "__main__":
     
-    print("🔥 extract_symptoms_groq CALLED")
-
     # Evaluation on Gold standard data that has been validated manually
     gold_data = [
         {"question": "Are dry lips a symptom of anything?", "symptom": "dry lips", "body_location": "lips", "duration": "", "trigger": ""},
