@@ -38,18 +38,18 @@ def build_prompt(question):
 
     return f"""
     You are an expert medical question classifier.
-    
+
     Classify the user's question into EXACTLY one of these intent categories:
-    
+
     {label_list}
-    
+
     Return ONLY valid JSON:
     {{
         "intent": "one_of_the_categories"
     }}
-    
+
     User question: "{question}"
-"""
+    """
 
 
 # Intent Classification Function
