@@ -37,18 +37,18 @@ def build_prompt(question):
     label_list = ", ".join(INTENT_LABELS)
 
     return f"""
-You are an expert medical question classifier.
-
-Classify the user's question into EXACTLY one of these intent categories:
-
-{label_list}
-
-Return ONLY valid JSON:
-{{
-    "intent": "one_of_the_categories"
-}}
-
-User question: "{question}"
+    You are an expert medical question classifier.
+    
+    Classify the user's question into EXACTLY one of these intent categories:
+    
+    {label_list}
+    
+    Return ONLY valid JSON:
+    {{
+        "intent": "one_of_the_categories"
+    }}
+    
+    User question: "{question}"
 """
 
 
