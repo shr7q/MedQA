@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "Are benign brain tumors serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "benign brain tumors"
     ],
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "question": "Are bone cysts serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "bone cysts"
     ],
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "question": "Are cold sores a herpes virus?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "cold sores"
     ],
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "question": "Are dental abscesses serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "dental abscesses"
     ],
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "question": "Are dry lips a symptom of anything?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "dry lips"
     ],
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "question": "Are febrile seizures harmful?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "febrile seizures"
     ],
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "question": "Are fibroids serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "fibroids"
     ],
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "question": "Are floaters in eye serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "floaters in eye"
     ],
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "question": "Are genital warts serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "genital warts"
     ],
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "question": "Are human bites more infectious than animal bites?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "human bites"
     ],
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "question": "Are lipomas serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "lipomas"
     ],
@@ -158,7 +158,7 @@
   {
     "id": 14,
     "question": "Are mouth ulcers caused by stress?",
-    "intent": "causality_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "mouth ulcers"
     ],
@@ -170,7 +170,7 @@
   {
     "id": 15,
     "question": "Are pauses in breathing normal?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "pauses in breathing"
     ],
@@ -182,7 +182,7 @@
   {
     "id": 16,
     "question": "Are phantom smells a symptom of Covid?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "phantom smells"
     ],
@@ -194,7 +194,7 @@
   {
     "id": 17,
     "question": "Are piles and hemorrhoids the same thing?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "piles",
       "hemorrhoids"
@@ -207,7 +207,7 @@
   {
     "id": 18,
     "question": "Are piles and hemorrhoids the same?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "piles",
       "hemorrhoids"
@@ -220,7 +220,7 @@
   {
     "id": 19,
     "question": "Are pressure sores and pressure ulcers the same?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "pressure sores",
       "pressure ulcers"
@@ -233,7 +233,7 @@
   {
     "id": 20,
     "question": "Are primary tumors and metastases different?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "primary tumors",
       "metastases"
@@ -258,7 +258,7 @@
   {
     "id": 22,
     "question": "Are red veins in eyes serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "red veins in eyes"
     ],
@@ -270,7 +270,7 @@
   {
     "id": 23,
     "question": "Are rotator cuff injuries serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "rotator cuff injuries"
     ],
@@ -295,7 +295,7 @@
   {
     "id": 25,
     "question": "Are sigmoid diverticula serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "sigmoid diverticula"
     ],
@@ -307,7 +307,7 @@
   {
     "id": 26,
     "question": "Are skin ulcers serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "skin ulcers"
     ],
@@ -343,7 +343,7 @@
   {
     "id": 29,
     "question": "Are ventral hernias in elderly serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "ventral hernias in elderly"
     ],
@@ -355,7 +355,7 @@
   {
     "id": 30,
     "question": "Are vestibular disorders serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "vestibular disorders"
     ],
@@ -367,7 +367,7 @@
   {
     "id": 31,
     "question": "At what age does motor neurone disease start?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "motor neurone disease"
     ],
@@ -379,7 +379,7 @@
   {
     "id": 32,
     "question": "At what age does penile cancer occur?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "penile cancer"
     ],
@@ -391,7 +391,7 @@
   {
     "id": 33,
     "question": "At what age is bedwetting a problem?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "bedwetting"
     ],
@@ -403,7 +403,7 @@
   {
     "id": 34,
     "question": "At what age is gender dysphoria most common?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "gender dysphoria"
     ],
@@ -415,7 +415,7 @@
   {
     "id": 35,
     "question": "At what age is hearing loss normal?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "hearing loss"
     ],
@@ -427,7 +427,7 @@
   {
     "id": 36,
     "question": "At what age is it normal to lose teeth?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "losing teeth"
     ],
@@ -439,7 +439,7 @@
   {
     "id": 37,
     "question": "At what age is MDS diagnosed?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "myelodysplastic syndromes"
     ],
@@ -451,7 +451,7 @@
   {
     "id": 38,
     "question": "At what age is myelodysplastic syndrome diagnosed?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "myelodysplastic syndrome"
     ],
@@ -463,7 +463,7 @@
   {
     "id": 39,
     "question": "At what age is nocturia normal?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "nocturia"
     ],
@@ -475,7 +475,7 @@
   {
     "id": 40,
     "question": "At what age is occasional shortness of breath normal?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "shortness of breath"
     ],
@@ -487,7 +487,7 @@
   {
     "id": 41,
     "question": "At what age is rectal bleeding common?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "rectal bleeding"
     ],
@@ -499,7 +499,7 @@
   {
     "id": 42,
     "question": "At what age is scoliosis most common?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "scoliosis"
     ],
@@ -511,7 +511,7 @@
   {
     "id": 43,
     "question": "At what age is strep throat most common?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "strep throat"
     ],
@@ -523,7 +523,7 @@
   {
     "id": 44,
     "question": "At what age is thalassemia diagnosed?",
-    "intent": "disease_information",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "thalassemia"
     ],
@@ -535,7 +535,7 @@
   {
     "id": 45,
     "question": "At what age is tongue tie diagnosed?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "tongue tie"
     ],
@@ -547,7 +547,7 @@
   {
     "id": 46,
     "question": "At what age should children get HPV vaccine?",
-    "intent": "informational_question",
+    "intent": "disease_general_health_information",
     "symptoms": [],
     "duration": null,
     "trigger": null,
@@ -557,7 +557,7 @@
   {
     "id": 47,
     "question": "At what age should you worry about scoliosis?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "scoliosis"
     ],
@@ -569,7 +569,7 @@
   {
     "id": 48,
     "question": "At what age should your tongue be checked for growths?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "tongue growths"
     ],
@@ -581,7 +581,7 @@
   {
     "id": 49,
     "question": "At what age should you worry about tumors?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "tumors"
     ],
@@ -677,7 +677,7 @@
   {
     "id": 57,
     "question": "Can a lump be cancer?",
-    "intent": "diagnosis_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "lump"
     ],
@@ -725,7 +725,7 @@
   {
     "id": 61,
     "question": "Can a person with spastic paraplegia walk?",
-    "intent": "ability_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "spastic paraplegia"
     ],
@@ -737,7 +737,7 @@
   {
     "id": 62,
     "question": "Can a person with spina bifida walk?",
-    "intent": "ability_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "spina bifida"
     ],
@@ -749,7 +749,7 @@
   {
     "id": 63,
     "question": "Can a persons personality be changed?",
-    "intent": "general_health_question",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "personality change"
     ],
@@ -761,7 +761,7 @@
   {
     "id": 64,
     "question": "Can a red eye be serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "red eye"
     ],
@@ -858,7 +858,7 @@
   {
     "id": 74,
     "question": "Can adults get mumps?",
-    "intent": "susceptibility_question",
+    "intent": "causality_question",
     "symptoms": [
       "mumps"
     ],
@@ -870,7 +870,7 @@
   {
     "id": 75,
     "question": "Can adults get slap cheek virus?",
-    "intent": "susceptibility_question",
+    "intent": "causality_question",
     "symptoms": [
       "slapped cheek virus"
     ],
@@ -882,7 +882,7 @@
   {
     "id": 76,
     "question": "Can an extra rib cause problems?",
-    "intent": "complication_question",
+    "intent": "disease_general_health_information",
     "symptoms": [
       "extra rib"
     ],
@@ -930,7 +930,7 @@
   {
     "id": 80,
     "question": "Can appendix pain come and go for days?",
-    "intent": "symptom_pattern_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "appendix pain"
     ],
@@ -966,7 +966,7 @@
   {
     "id": 83,
     "question": "Can baby have both plagiocephaly and brachycephaly?",
-    "intent": "cooccurrence_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "plagiocephaly",
       "brachycephaly"
@@ -1003,7 +1003,7 @@
   {
     "id": 86,
     "question": "Can benign prostate turn into cancer?",
-    "intent": "progression_question",
+    "intent": "prognosis_inquiry",
     "symptoms": [
       "benign prostate enlargement"
     ],
@@ -1171,7 +1171,7 @@
   {
     "id": 100,
     "question": "Can Covid start with a runny nose?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "runny nose",
       "Covid"
@@ -1208,7 +1208,7 @@
   {
     "id": 103,
     "question": "Can diabetes cause sweating?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "diabetes",
       "sweating"
@@ -1270,7 +1270,7 @@
   {
     "id": 108,
     "question": "Can dizziness be serious?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "dizziness"
     ],
@@ -1319,7 +1319,7 @@
   {
     "id": 112,
     "question": "Can ectopic beats damage your heart?",
-    "intent": "severity_question",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "ectopic beats"
     ],
@@ -1441,7 +1441,7 @@
   {
     "id": 122,
     "question": "Can eyesight get reduced?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "reduced eyesight"
     ],
@@ -1453,7 +1453,7 @@
   {
     "id": 123,
     "question": "Can fingernails show signs of illness?",
-    "intent": "diagnosis_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "fingernails",
       "illness signs"
@@ -1600,7 +1600,7 @@
   {
     "id": 135,
     "question": "Can head lice live in your house?",
-    "intent": "environmental_question",
+    "intent": "causality_question",
     "symptoms": [
       "head lice"
     ],
@@ -1624,7 +1624,7 @@
   {
     "id": 137,
     "question": "Can high blood pressure cause blue lips?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "high blood pressure",
       "blue lips"
@@ -1673,7 +1673,7 @@
   {
     "id": 141,
     "question": "Can I drive with a macular hole?",
-    "intent": "activity_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "macular hole"
     ],
@@ -1697,7 +1697,7 @@
   {
     "id": 143,
     "question": "Can I have hirsutism without PCOS?",
-    "intent": "diagnosis_question",
+    "intent": "diagnosis_decision_question",
     "symptoms": [
       "hirsutism",
       "PCOS"
@@ -1758,7 +1758,7 @@
   {
     "id": 148,
     "question": "Can kids get growing pains in hips?",
-    "intent": "symptom_query",
+    "intent": "symptom_centric_query",
     "symptoms": [
       "growing pains"
     ],
