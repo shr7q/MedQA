@@ -16,9 +16,11 @@ client = Groq(api_key=GROQ_API_KEY)
 # Initialize Sentence Transformer and FAISS index
 embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
+
 # Load corpus of medical questions (3172 questions)
 with open("data/corpus.json", "r") as f:
     corpus = json.load(f)
+
 
 # Create embeddings and build FAISS index
 corpus_texts = [item["question"] for item in corpus]
@@ -49,16 +51,19 @@ def rag_answer(question, k=5):
     context = "\n".join([f"- {doc}" for doc in retrieved])
     
     prompt = f"""
-Use the retrieved similar questions below to provide a medically safe and helpful answer.
-If context is insufficient, say "more information is needed".
+    You are designed to answer strictly medical related queries. Anything that is not medical related 
+    should be responded with "Sorry I can only answer medical related queries.".
 
-Retrieved similar questions:
-{context}
+    Use the retrieved similar questions below to provide a medically safe and helpful answer.
+    If context is insufficient, say "more information is needed".
 
-User question: {question}
+    Retrieved similar questions:
+    {context}
 
-Provide your best answer:
-"""
+    User question: {question}
+
+    Provide your best answer:
+    """
     
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
