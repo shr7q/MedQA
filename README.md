@@ -1,5 +1,9 @@
 # 🧠 MedQA: Modular NLP System for Medical Question Understanding
+Authors: 
+- Amaan Mohammed (amaan@umd.edu)
+- Vivek Ediga (evivek@umd.edu)
 
+---
 ## Overview
 MedQA is a modular Natural Language Processing (NLP) system designed to analyze and respond to medical questions in a **safe, interpretable, and structured** manner.
 
@@ -68,5 +72,6 @@ MedQA/
 ├── README.md
 └── Setup.md
 ```
+
 
 
