@@ -1,5 +1,5 @@
 import streamlit as st
-from LLM_intent import classify_intent
+from LLM_intent import classify_intent_llm
 from symptom_extraction import extract_symptoms
 from RAG import rag_answer
 
@@ -15,7 +15,7 @@ if st.button("Run Analysis") and user_question.strip():
     with st.spinner("Analyzing..."):
 
         # 1. Intent Classification
-        intent = classify_intent(user_question)
+        intent = classify_intent_llm(user_question)
 
         # 2. Symptom Extraction 
         extracted = extract_symptoms(user_question)
