@@ -40,7 +40,7 @@ The pipeline follows four main stages:
 - **HealthSearchQA** dataset (via HuggingFace)
 - ~3,000+ unlabeled medical questions used as the RAG retrieval corpus
 - 148 manually labeled questions used for intent classification and symptom extraction evaluation
-- Original 10 intent labels merged into 10 higher-level categories to reduce sparsity
+- Original 18 intent labels merged into 10 higher-level categories to reduce sparsity
 
 ---
 
@@ -68,4 +68,5 @@ MedQA/
 ├── README.md
 └── Setup.md
 ```
+
 
